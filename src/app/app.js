@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
-import ButtonBar from "./appNavBar";
+import NavBar from '../components/navBar';
 
 const App = () => (
-    <Fragment>
-        <ButtonBar/>
-    </Fragment>
+	<Fragment>
+		<NavBar />
+	</Fragment>
 );
 
 export default App;
