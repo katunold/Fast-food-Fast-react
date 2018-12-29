@@ -1,6 +1,6 @@
 import React from 'react';
 import {mount, shallow} from 'enzyme';
-import App from '../app/App';
+import App from '../app/app';
 import ButtonBar from "../app/appNavBar";
 
 it('renders without crashing', () => {
