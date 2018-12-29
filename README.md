@@ -1,2 +1,2 @@
-# Fast-food-Fast-react
+# Fast-food-Fast-react [![Build Status](https://travis-ci.org/katunold/Fast-fast-Fast-react.svg?branch=ch-setup-test-environment)](https://travis-ci.org/katunold/Fast-food-Fast-react) [![Coverage Status](https://coveralls.io/repos/github/katunold/Fast-food-Fast-react/badge.svg?branch=ch-setup-test-environment)](https://coveralls.io/github/katunold/Fast-food-Fast-react?branch=ch-setup-test-environment)
 Fast-Food-Fast is a food delivery service app for a restaurant. Front end implemented in Reactjs

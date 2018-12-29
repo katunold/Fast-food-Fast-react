@@ -4,8 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.7.1",
-    "enzyme": "^3.8.0",
-    "enzyme-adapter-react-16": "^1.7.1",
+    "jwt-decode": "^2.2.0",
     "material-ui": "^0.20.2",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
@@ -31,5 +30,28 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/src/themes/*",
+      "!<rootDir>/src/ProtectedRoute/*",
+      "!<rootDir>/src/index.js"
+    ]
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "enzyme": "latest",
+    "enzyme-adapter-react-16": "latest",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "redux-devtools-extension": "^2.13.5"
+  }
 }
