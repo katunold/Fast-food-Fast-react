@@ -1,9 +1,20 @@
 import React from 'react';
-import {mount, shallow} from 'enzyme';
-import App from '../app/app';
-import ButtonBar from "../app/appNavBar";
+import { mount } from 'enzyme';
+import { Provider } from 'react-redux';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+import store from '../store';
+import Routes from '../routes';
+import AppTheme from '../static/themes';
 
-it('renders without crashing', () => {
-  expect(shallow(<App/>)).toHaveLength(1);
-  expect(mount(<ButtonBar classes={{}}/>)).toHaveLength(1);
+describe('App component', () => {
+
+	it('its pretty', () => {
+		mount(
+			<MuiThemeProvider theme={AppTheme}>
+				<Provider store={store}>
+					<Routes />
+				</Provider>
+			</MuiThemeProvider>
+		);
+	});
 });

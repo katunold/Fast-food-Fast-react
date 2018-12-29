@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
 
 const initialReducer = () => ({});
-const reducers = combineReducers({
-    initialReducer
+const index = combineReducers({
+	initialReducer
 });
 
-export default reducers;
+export default index;
