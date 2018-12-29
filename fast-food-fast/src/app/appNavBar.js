@@ -15,7 +15,7 @@ const styles = {
     }
 };
 
-const ButtonAppBar = (props) => {
+const ButtonBar = (props) => {
     const { classes } = props;
     return (
         <div className={classes.root}>
@@ -45,4 +45,4 @@ const ButtonAppBar = (props) => {
     );
 };
 
-export default withStyles(styles)(ButtonAppBar);
+export default withStyles(styles)(ButtonBar);
