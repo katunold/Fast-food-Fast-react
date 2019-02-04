@@ -1,2 +1,5 @@
 export const TOKEN = 'token';
-export const API_URL = 'api_url';
+export const API = {
+		SIGN_UP_URL: 'users/',
+		LOGIN_URL: '/users/login/',
+};
